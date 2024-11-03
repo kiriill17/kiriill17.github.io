@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Водолазные работы Екатеринбург</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link type="image/x-icon" href="img/logo_0.png" rel="shortcut icon">
+    <link type="Image/x-icon" href="img/logo_0.png" rel="icon">
+
+
+</head>
+<body>
+    <header>
+        <div class="header__container">
+            <div class="header__left">
+                <img src="img/logo_0.png" alt="">
+                <div class="header__left__right">
+                    <h2>Водоолаз Урал</h2>
+                    <p>Водолазная компания</p>
+                </div>
+            </div>
+            <div class="ssl">
+                <a href="#">Главная</a>
+                <a href="#">О нас</a>
+                <a href="#">Услуги</a>
+                <a href="#">Контакты</a>
+            </div>
+            <div class="header__right">
+                <p>+7 (343) 268-97-97</p>
+                <button id="headerBTN">Заказать звонок</button>
+            </div>
+        </div>
+        <hr>
+    </header>
+    <main class="one">
+        <div class="one__container">
+            <h1>Подводные и <br>гидротехнические<br> работы</h1>
+            <button onclick="openModal()">Связаться с нами</button>
+            <img src="img/Group 5.png" alt="">
+        </div>
+    </main>
+    <section class="two">
+        <div class="two__container">
+            <h3>Наша компания занимается всеми видами водолазных работ</h3>
+            <p>Проведем водолазное обследование. Почистим или произведем ремонт рыбозащитных устройств. Размоем или уберем грунт, очистим дно,  установим или демонтируем металлоконструкции под водой! Обращайтесь к нам!</p>
+            <button onclick="openModal()">Связаться с нами</button>
+        </div>
+    </section>
+    <section class="three">
+        <p class="three__name">Наши  услуги</p>
+        <div class="three__container">
+            <div class="three__usl">
+                <p>Поиск затонувших вещей и оборудования. Размыв и уборка грунта</p>
+                <button onclick="openModal()">Заказать</button>
+            </div>
+            <div class="three__usl">
+                <p>Водолазное обследование дна,трубопроводов, оборудования, судов</p>
+                <button onclick="openModal()">Заказать</button>
+            </div>
+            <div class="three__usl">
+                <p>Подводные монтажные работы.Резка металлоконструкций</p>
+                <button onclick="openModal()">Заказать</button>
+            </div>
+        </div>
+    </section>
+    <section class="four">
+        <div class="four__container">
+            <div class="four__left">
+                <h3>Контакты</h3>
+                <p>Свердловская область, г. Екатеринбург, ул. Артинская, 22 <br>
+                    +7 (902) 262-84-81 <br>+7 (343) 268-97-97 <br>
+                    dimakorin1@yandex.ru</p>
+                <button onclick="openModal()">Заказать звонок</button>
+            </div>
+            <div class="four__right">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2180.5983024792113!2d60.5829997956399!3d56.86998380523696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43c16e0ec3c596e3%3A0x4a1c17a9667ff2b1!2z0J7QntCeICLQkdC40L7QotC-0L8i!5e0!3m2!1sru!2sru!4v1729929363759!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer__container">
+            <p>Все права защищены</p>
+            <p>ООО БиоТоп</p>
+        </div>
+    </footer>
+    <div class="modal" id="modal">
+        <div class="modal__container">
+            <p>Закажите обратный звонок</p>
+            <input type="text" placeholder="Ваше имя">
+            <input type="text" placeholder="+79999999999">
+            <button>
+                Заказать звонок
+            </button>
+            <hr>
+            <p>Или позвоните  нам:</p>
+            <p>+7 999 990-99-99</p>
+            <p>+7 999 990-99-99</p>
+            <button onclick="closeModal()" id="closeBtn">Закрыть</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
