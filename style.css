@@ -319,6 +319,9 @@ footer {
 }
 
 @media (max-width: 1200px) {
+  body {
+    overflow-x: hidden;
+  }
   .one__container img {
     display: none;
     opacity: 0;
